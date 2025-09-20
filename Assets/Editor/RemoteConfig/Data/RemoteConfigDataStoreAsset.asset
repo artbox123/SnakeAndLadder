@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"387178e5-00fd-4fd9-97c8-233362dd6bbf\"\n   
+    },\n    \"rs\": {\n      \"key\": \"adsOnClick\",\n      \"type\": \"int\",\n     
+    \"value\": 5\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"31286b6b-9135-40e7-b0bb-be3144897d07\"\n   
+    },\n    \"rs\": {\n      \"key\": \"adsEnable\",\n      \"type\": \"bool\",\n     
+    \"value\": false\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\":
+    \"e78b9ccc-44e1-4b24-aa22-8d55842f66bf\"\n    },\n    \"rs\": {\n      \"key\":
+    \"appMaintenance\",\n      \"type\": \"json\",\n      \"schemaId\": null,\n     
+    \"value\": {\n        \"status\": \"false\",\n        \"message\": \"App is under
+    maintenance please give us some time, we will come back shortly. Sorry for the
+    inconvenience!\"\n      }\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\":
+    \"d9ee6b22-b69a-4199-9470-26d72f744085\"\n    },\n    \"rs\": {\n      \"key\":
+    \"appVersion\",\n      \"type\": \"float\",\n      \"value\": 1.26\n    }\n 
+    }\n]"
+  _rsLastCachedKeyList: "[\n  {\n    \"metadata\": {\n      \"entityId\": \"387178e5-00fd-4fd9-97c8-233362dd6bbf\"\n   
+    },\n    \"rs\": {\n      \"key\": \"adsOnClick\",\n      \"type\": \"int\",\n     
+    \"value\": 5\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\": \"31286b6b-9135-40e7-b0bb-be3144897d07\"\n   
+    },\n    \"rs\": {\n      \"key\": \"adsEnable\",\n      \"type\": \"bool\",\n     
+    \"value\": false\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\":
+    \"e78b9ccc-44e1-4b24-aa22-8d55842f66bf\"\n    },\n    \"rs\": {\n      \"key\":
+    \"appMaintenance\",\n      \"type\": \"json\",\n      \"schemaId\": null,\n     
+    \"value\": {\n        \"status\": \"false\",\n        \"message\": \"App is under
+    maintenance please give us some time, we will come back shortly. Sorry for the
+    inconvenience!\"\n      }\n    }\n  },\n  {\n    \"metadata\": {\n      \"entityId\":
+    \"d9ee6b22-b69a-4199-9470-26d72f744085\"\n    },\n    \"rs\": {\n      \"key\":
+    \"appVersion\",\n      \"type\": \"float\",\n      \"value\": 1.26\n    }\n 
+    }\n]"
+  _environments: "[\n  {\n    \"projectId\": \"27a97646-b02d-41b7-ac09-5fdcee27b352\",\n   
+    \"name\": \"production\",\n    \"id\": \"88dd330f-1d47-4c4e-9f87-94dfb5d026c8\",\n   
+    \"isDefault\": true,\n    \"createdAt\": \"2021-08-16T17:43:41Z\",\n    \"updatedAt\":
+    \"2021-08-16T17:43:41Z\"\n  },\n  {\n    \"projectId\": \"27a97646-b02d-41b7-ac09-5fdcee27b352\",\n   
+    \"name\": \"development\",\n    \"id\": \"5008d015-3d9f-497c-947b-a0f8a1dc24f4\",\n   
+    \"isDefault\": false,\n    \"createdAt\": \"2022-08-28T07:29:58Z\",\n    \"updatedAt\":
+    \"2022-08-28T07:29:58Z\"\n  }\n]"
