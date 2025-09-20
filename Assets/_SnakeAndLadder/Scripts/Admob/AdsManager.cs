@@ -19,6 +19,7 @@ namespace ArtboxGames
         private InterstitialAd _interstitialAd;
         private RewardedAd _rewardedAd;
 
+        DateTime _expireTime;
         private bool showAppOpen = true;
 
         public bool IsAdAvailable
@@ -26,7 +27,8 @@ namespace ArtboxGames
             get
             {
                 return appOpenAd != null
-                       && appOpenLoaded;
+                       && appOpenLoaded
+                       && DateTime.Now < _expireTime;
             }
         }
 
@@ -118,6 +120,9 @@ namespace ArtboxGames
 
                     Debug.Log("App open ad loaded with response : "
                               + ad.GetResponseInfo());
+
+                    // App open ads can be preloaded for up to 4 hours.
+                    _expireTime = DateTime.Now + TimeSpan.FromHours(4);
 
                     appOpenLoaded = true;
                     appOpenAd = ad;

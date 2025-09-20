@@ -149,5 +149,13 @@ namespace ArtboxGames
         {
             Application.OpenURL("https://play.google.com/store/apps/developer?id=Artbox+Infotech");
         }
+
+        public void ShowAds()
+        {
+            if (AdsManager.Instance != null)
+            {
+                AdsManager.Instance.ShowInterstitialAd();
+            }
+        }
     }
 }

@@ -22,9 +22,6 @@ namespace ArtboxGames
             {
                 LoadScene(sceneName, DoNotDestroy.Instance.loadingPanel);
                 DisconnectPlayer();
-
-                if (AdsManager.Instance != null && sceneName.Equals("Home"))
-                    AdsManager.Instance.ShowInterstitialAd();
             }
             else
             {
