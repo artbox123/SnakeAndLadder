@@ -13,6 +13,7 @@ Assets/ExternalDependencyManager/Editor/LICENSE
 Assets/ExternalDependencyManager/Editor/README.md
 Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.186_manifest.txt
 Assets/GoogleMobileAds/CHANGELOG.md
+Assets/GoogleMobileAds/Editor/AndroidBuildPreProcessor.cs
 Assets/GoogleMobileAds/Editor/BuildPreProcessor.cs
 Assets/GoogleMobileAds/Editor/EditorLocalization.cs
 Assets/GoogleMobileAds/Editor/EditorLocalizationData.cs

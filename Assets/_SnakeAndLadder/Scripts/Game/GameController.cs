@@ -259,7 +259,7 @@ namespace ArtboxGames
                         PlaySound(6);
 
                         if (AdsManager.Instance != null)
-                            AdsManager.Instance.ShowInterstitialAd();
+                            AdsManager.Instance.ShowInterstitial();
                     }
                 }
                 else
@@ -406,7 +406,7 @@ namespace ArtboxGames
             GameScreen.Instance.gameWin.SetActive(true);
 
             if (AdsManager.Instance != null)
-                AdsManager.Instance.ShowInterstitialAd();
+                AdsManager.Instance.ShowInterstitial();
         }
     }
 }

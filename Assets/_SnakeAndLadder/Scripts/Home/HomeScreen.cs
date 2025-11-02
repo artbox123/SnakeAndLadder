@@ -102,7 +102,7 @@ namespace ArtboxGames
 
         private void HideBanner()
         {
-            AdsManager.Instance.HideBannerView();
+            AdsManager.Instance.HideBanner();
         }   
 
         private void SetPlayerProfile()
@@ -154,7 +154,7 @@ namespace ArtboxGames
         {
             if (AdsManager.Instance != null)
             {
-                AdsManager.Instance.ShowInterstitialAd();
+                AdsManager.Instance.ShowInterstitial();
             }
         }
     }

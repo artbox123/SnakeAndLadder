@@ -92,7 +92,7 @@ namespace ArtboxGames
 
         public void WatchVideo()
         {
-            if (!AdsManager.Instance.ShowRewardedAd())
+            if (!AdsManager.Instance.ShowRewardVideo())
             {
                 ShowMessageBox("Rewarded video is not ready at the moment! Please try again later!");
             }

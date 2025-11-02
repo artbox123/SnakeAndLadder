@@ -172,7 +172,7 @@ namespace ArtboxGames
             explosion[1].SetActive(true);
 
             if (AdsManager.Instance != null)
-                AdsManager.Instance.ShowInterstitialAd();
+                AdsManager.Instance.ShowInterstitial();
         }
 
         private void CheckSpinTime()

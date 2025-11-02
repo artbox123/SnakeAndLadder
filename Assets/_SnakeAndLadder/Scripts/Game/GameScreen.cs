@@ -30,7 +30,7 @@ namespace ArtboxGames
             if (PlayerInfo.Instance.playType != PlayType.Play && !ServerCode.Instance.botActivated)
                 InvokeRepeating("CheckNetwork", 2f, 6f);
 
-            AdsManager.Instance.ShowBannerView();
+            AdsManager.Instance.ShowBanner();
 
             PlayerInfo.Instance.UpdateCoins(CoinAction.Minuse, PlayerInfo.Instance.bootAmount);
         }
